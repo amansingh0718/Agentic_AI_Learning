@@ -1,3 +1,8 @@
+#Asynchronous code execution, because MCP supports asynchronous code mechanism as default...
+#And the same code with some modification will be used for MCP Client
+
+
+
 from langgraph.graph import StateGraph, START
 from dotenv import load_dotenv
 from langchain_groq import ChatGroq
